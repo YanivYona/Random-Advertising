@@ -1,0 +1,149 @@
+
+
+@font-face {
+    font-family: FP-GothamNews;
+    src: url(../fonts/FP-GothamNews.otf);
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+
+	overflow:hidden;
+}
+main{
+	    background-color: #00324d;
+	margin: 0 auto;
+	width: 1080px;
+	height: 1920px;
+	position: relative;
+    filter: saturate(1.5);
+}
+.image_container  {
+width: 950px;
+    height: 1765px;
+    margin-top:  71px;
+    margin-left: 60px;
+    background-image: url(https://images.unsplash.com/photo-1473244228373-94e7e7fd250f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2743f0d930daa0390b72ed16b28eb98f);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+    background-position: center;
+    background-color: #00324d;
+    filter: contrast(3) grayscale(1);
+
+}
+.content_container{
+
+	background-color: #ffffff;
+	width: 100%;
+	    height: 100%;
+	    overflow: hidden;
+}
+
+h1{
+display:none;
+}
+
+
+.fulljustify {
+  text-align: justify;
+}
+.fulljustify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+
+#fulljustify_title {
+  text-align: justify;
+}
+#fulljustify_title:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+h2{
+
+ 
+display:none;
+   
+}
+ u{
+    text-decoration: none;
+    border-bottom: 0px;
+  }
+.line{
+height: 1775px;
+    width: 950px;
+    position: absolute;
+    top: 71px;
+    left: 60px;
+    background-color: #00324d;
+    mix-blend-mode: exclusion;
+
+}
+.line2{
+    display: inline-block!important;
+    height: 1775px;
+    width: 950px;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    background-color: red;
+    mix-blend-mode: color-dodge;
+
+}
+.line3{
+    display: inline-block!important;
+    height: 1775px;
+    width: 950px;
+    position: absolute;
+    top: 71px;
+    left: 60px;
+    background-color: #fce4a8;
+    mix-blend-mode: color;
+
+}
+.icon{
+	position: relative;
+	margin-top: 90px;
+	margin-left: 60px;
+
+}
+.icon .svg_container{
+    width: 150px;
+    height: 110px;
+    fill: white!important;
+    position: relative;
+    top: 1280px;
+    left: 780px;
+    z-index: 5;
+    display:none;
+}
+svg{
+    max-height: 160px;
+    max-width: 150px;
+}
+ .company_name{
+    position: absolute;
+    top: 1524px;
+    font-family: FP-GothamNews;
+    text-transform: uppercase;
+    width: 950px;
+    font-size: 180px;
+    word-spacing: -60px;
+    letter-spacing: -10px;
+    background-color: #00324d!important;
+    z-index: 5;
+    color: #fff;
+    padding-top: 50px;
+    height: 223px;
+}
+
+

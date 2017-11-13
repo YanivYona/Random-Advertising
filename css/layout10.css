@@ -1,0 +1,110 @@
+@font-face {
+    font-family: GilroyRegular;
+    src: url(../fonts/fp-gilroyRegular.otf);
+}
+@font-face {
+    font-family: GilroyBold;
+    src: url(../fonts/fp-gilroyBold.otf);
+}
+@font-face {
+    font-family: SentinelSemiLightItalic;
+    src: url(../fonts/SentinelSemiLightItalic.otf);
+}
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	fill:black;
+}
+body {
+
+	color: #000000;
+}
+main{
+
+    margin: 0 auto;
+    width: 1080px;
+    height: 1920px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255,0.4)!important;
+
+  
+}
+.image_container  {
+    width: 880px;
+    height: 52%;
+    background-image: url(https://images.unsplash.com/photo-1473244228373-94e7e7fd250f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2743f0d930daa0390b72ed16b28eb98f);
+    background-size: cover;
+    position: absolute;
+    z-index: 55;
+    left: 100px;
+    top: 100px;
+
+}
+.content_container{
+	overflow: hidden;
+	background-color: #ffffff;
+	width: 100%;
+    height:100%;
+}
+
+h1{
+width: 880px;
+    max-height: 100%;
+    font-size: 80pt;
+    font-family: gilroybold;
+    margin-top: 1150px;
+    margin-left: 100px;
+    color: black;
+    word-wrap: break-word;
+    line-height: 0.85;
+    border-top: solid black 4px;
+    border-bottom: solid black 4px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    letter-spacing: -4px;
+}
+h2{
+width: 450px;
+    height: 130px;
+    font-size: 20pt;
+    font-family: GilroyRegular;
+    margin-left: 100px;
+    color: black;
+    word-wrap: break-word;
+    border-bottom: solid black 15px;
+    margin-top: 60px;
+    padding-bottom: 25px;
+    column-count: 2;
+    padding-right: 430px;
+    column-gap: 42px;
+}
+ u{
+    text-decoration: none;
+    border-bottom: 0px;
+  }
+.line{
+	display: none;
+}
+.icon{
+    position: absolute;
+    margin-top: 1710px;
+    margin-left: 100px;
+
+}
+.icon .svg_container{
+    width: 70px;
+}
+svg{
+	max-height: 100px;
+	max-width: 100px;
+}
+.icon .company_name{
+    font-family: gilroybold;
+    font-size: 37pt;
+    color: black!important;
+
+}

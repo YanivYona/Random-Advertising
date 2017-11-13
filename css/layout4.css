@@ -1,0 +1,112 @@
+@font-face {
+    font-family: FFMetaSerifProBoldItalic;
+    src: url(../fonts/FP-FFMetaSerifProBoldItalic.otf);
+}
+@font-face {
+    font-family: DINProRegular;
+    src: url(../fonts/FP-DINProRegular.otf);
+}
+@font-face {
+    font-family: FFMetaSerifProRegular;
+    src: url(../fonts/FP-FFMetaSerifProRegular.otf);
+}
+@font-face {
+    font-family: FFMetaSerifProBold;
+    src: url(../fonts/FP-FFMetaSerifProBold.otf);
+}
+@font-face {
+    font-family: TradeGothicLTBoldBold;
+    src: url(../fonts/FP-TradeGothicLTBoldBold.otf);
+}
+@font-face {
+    font-family: SentinelSemiLightItalic;
+    src: url(../fonts/FP-SentinelSemiLightItalic.otf);
+}
+@font-face {
+    font-family: GothamNews;
+    src: url(../fonts/FP-GothamNews.otf);
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #000000;
+	color: #000000;
+}
+main{
+	background-color: #ffffff!important;
+	margin: 0 auto;
+	width: 1080px;
+	height: 1920px;
+	position: relative;
+	    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.97) 0%,rgb(255, 255, 255) 10%,rgb(255, 255, 255) 90%,rgba(255, 255, 255, 0.97) 100%);
+}
+.image_container{
+	width: 957px;
+	height: 1140px;
+	background-image: url('https://images.unsplash.com/photo-1473244228373-94e7e7fd250f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2743f0d930daa0390b72ed16b28eb98f');
+	background-size: cover;	
+	margin-top: 72px;
+	margin-left: 59px;
+	position: relative;
+}
+.content_container{
+	background-color: rgba(0,0,0,0.04)!important;
+	width: 100%;
+	height: 268px;
+	position: absolute;
+	margin-top: 156px;
+	bottom: 0px;
+}
+
+h1 {
+    padding-top: 167px;
+    width: 56%;
+    position: relative;
+    text-align: center;
+    font-size: 50pt;
+    font-family: SentinelSemiLightItalic;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1;
+    font-weight: 200;
+}
+h2 {
+    padding-left: 69px;
+    width: 40%;
+    position: absolute;
+    font-family: DINProRegular;
+    font-size: 19pt;
+    line-height: 23pt;
+    bottom: 80px;
+}
+ u{
+    text-decoration: none;
+    border-bottom: 0px;
+  }
+.line{
+	display: none;
+}
+.icon{
+	position: absolute;
+	bottom: 70px;
+	right: 77px;
+}
+.icon .svg_container{
+width: 80px;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom: -40px;
+    fill: black!important;
+}
+svg{
+max-height: 80px;
+    max-width: 100px;
+}
+.icon .company_name{
+	font-family: GothamNews;
+    font-size: 28pt;
+	text-transform:uppercase;
+	text-align: center;
+}

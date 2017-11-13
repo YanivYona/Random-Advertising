@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica.otf);
+}
+@font-face {
+    font-family: HelveticaBold;
+    src: url(../fonts/HelveticaBold.otf);
+}
+
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	fill:white!Important;
+}
+body {
+	background-color: #000000;
+	color: #000000;
+}
+main{
+
+	margin: 0 auto;
+	width: 1080px;
+	height: 1920px;
+	position: relative;
+    z-index: -3;
+    overflow: hidden;
+        filter: saturate(3);
+            mix-blend-mode: hard-light;
+}
+.image_container  {
+
+width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1473244228373-94e7e7fd250f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2743f0d930daa0390b72ed16b28eb98f);
+    background-size: cover;
+    position: absolute;
+    z-index: -2;
+    mix-blend-mode: screen;
+    background-position: center;
+    filter: blur(20px);
+    overflow: hidden;
+
+}
+
+.clip-svg {
+  clip-path: url(#myClip);
+}
+.content_container{
+	overflow: hidden;
+	background-color: #ffffff;
+	width: 100%;
+    height:100%;
+}
+
+h1{
+max-height: 100%;
+    line-height: 81pt;
+    font-size: 86pt;
+    font-family: HelveticaBold;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    letter-spacing: -4px;
+    text-transform: initial;
+    width: 750px;
+    position: absolute;
+    padding-left: 70px;
+}
+h2{
+    margin-left: 80px;
+    width: 430px;
+    font-family: Helvetica;
+    font-size: 18pt;
+    line-height: 23pt;
+    margin-top: 1530px;
+    font-weight: 100;
+    padding-top: 30px;
+    color: white;
+    column-count: 2;
+    right: 60px;
+    position: absolute;
+}
+ u{
+    text-decoration: none;
+    border-bottom: 0px;
+  }
+.line{
+	display: none;
+}
+.icon{
+    position: absolute;
+
+
+}
+.svg_container{
+    width: 130px;
+    height: 110px;
+    top: 1550px;
+    position: relative;
+    left: 60px;
+    fill: white!important;
+    display:none;
+}
+svg{
+	max-height: 100px;
+	max-width: 100px;
+    fill: white!important;
+
+}
+.icon .company_name{
+    font-family: helveticabold;
+    font-size: 29pt;
+    color: white!important;
+    text-transform: capitalize;
+    position: absolute;
+    left: 60px;
+    top: 1565px;
+}
+
+.triangle{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 1920px;
+    width: 1080px;
+}
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+

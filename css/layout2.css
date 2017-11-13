@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "FFMetaSerifProBoldItalic";
+    src: url('/Fonts/FP-FFMetaSerifProBoldItalic.otf');
+}
+
+@font-face {
+    font-family: "DINProRegular";
+    src: url('/Fonts/FP-DINProRegular.otf');
+}
+
+@font-face {
+    font-family: "FFMetaSerifProRegular";
+    src: url('/Fonts/FP-FFMetaSerifProRegular.otf');
+}
+@font-face{
+    font-family: "RationalBold";
+    src: url('/Fonts/RationalBold.otf');
+}
+
+
+
+body{
+    background-color: #ffffff;
+}
+
+
+
+
+.imgDiv{
+    position: relative;
+    background-color: black;
+    margin-top: 17.5px;
+    width: 500px;
+    height: 800px;
+
+}
+.image{
+    position: relative;
+    text-align: center;
+    width: 500px;
+    height: 510px;
+}
+
+
+
+.slogan{
+    position: relative;
+    width: 200px;
+    color: white;
+    bottom: 270px;
+    right: 130px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: RationalBold;
+    display: table-caption;
+}
+
+
+
+
+
+
+
+
+
+.logoDiv{
+
+    position: relative;
+    width: 40px;
+    height: 40px;
+    bottom: 160px;
+    margin-left: 385px;
+}
+.logo{
+    position: relative;
+    width: 35px;
+    height: 35px;
+	filter: brightness(0) invert(1);
+}
+
+
+
+
+
+
+
+
+
+
+.word{ 
+    position: relative;
+    color: white;
+    font-family: RationalBold;
+    width: 100px;
+    bottom: 110px;
+    margin-top: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    height: 69px;
+    margin-left: 385px;
+
+}
+
+
+
+
+
+
+
+.content{
+    position: relative;
+    color: white;
+    margin-top: 5px;
+    width: 200px;
+    text-align: left;
+    bottom: 330px;
+    right: 130px;
+    
+}
+
+
+s

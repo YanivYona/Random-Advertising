@@ -1,0 +1,120 @@
+@font-face {
+    font-family: FuturaBoldItalic;
+    src: url('C:\Users\YonaYaniv\Desktop\Yaniv\Software Engineering\Eden Offer\templates-20170716T144921Z-001\templates\static\css\FuturaBoldItalic.ttf');
+}
+@font-face {
+    font-family: GilroyBold;
+    src: url('C:\Users\YonaYaniv\Desktop\Yaniv\Software Engineering\Eden Offer\templates-20170716T144921Z-001\templates\static\css\FP-GilroyBold.otf');
+}
+@font-face {
+    font-family: DINProMedium;
+    src: url('C:\Users\YonaYaniv\Desktop\Yaniv\Software Engineering\Eden Offer\templates-20170716T144921Z-001\templates\static\css\FP-DINProMedium.otf');
+}
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+
+
+}
+
+.fil0{
+    fill:black;
+}
+.fil1{
+    fill:black;
+}
+body {
+
+    color: #000000;
+    overflow: hidden;
+}
+main{
+    background-color: white!important;
+    margin: 0 auto;
+    height: 1920px;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,1) 5%,rgba(0,0,0,1) 50%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 99%);
+}
+.image_container  {
+width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1473244228373-94e7e7fd250f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2743f0d930daa0390b72ed16b28eb98f);
+    background-size: cover;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    mix-blend-mode: exclusion;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    filter: grayscale(1);
+
+}
+.content_container{
+width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+h1{
+
+    font-size: 80pt;
+    font-family: FuturaBoldItalic;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    line-height: 3.5;
+    z-index: 323;
+    display: flex;
+    width: 600px;
+    word-spacing: 15px;
+}
+
+
+h2{
+display:none;
+}
+ u{
+text-decoration: none;
+    border-bottom: 0px;
+    background-color: red;
+    box-shadow: 0.25em 0 0 red, -0.25em 0 0 red;
+  }
+.line {
+    height: 1880px;
+    transform: rotate(45deg);
+    width: 2000px;
+    position: absolute;
+    left: -1610px;
+}
+.icon{
+display:none;
+
+
+}
+.icon .svg_container{
+    width: 130px;
+    height: 110px;
+}
+svg{
+	max-height: 100px;
+	max-width: 100px;
+}
+.icon .company_name{
+    margin-top: 10px;
+    font-family: gilroybold;
+    font-size: 33pt;
+    line-height: 1;
+    position: absolute;
+
+}

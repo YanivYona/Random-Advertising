@@ -1,0 +1,105 @@
+@font-face {
+    font-family: GilroyBlack;
+    src: url(../fonts/FP-GilroyBlack.otf);
+}
+@font-face {
+    font-family: GilroyBold;
+    src: url(../fonts/FP-GilroyBold.otf);
+}
+@font-face {
+    font-family: DINProMedium;
+    src: url(../fonts/FP-DINProMedium.otf);
+}
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	fill:blue;
+}
+body {
+	background-color: #000000;
+	color: #000000;
+}
+main{
+	background-color: #ffffff!important;
+	margin: 0 auto;
+	width: 1080px;
+	height: 1920px;
+	position: relative;
+}
+.image_container  {
+   width: 718px;
+    height: 1164px;
+	background-image: url('https://images.unsplash.com/photo-1473244228373-94e7e7fd250f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2743f0d930daa0390b72ed16b28eb98f');
+	background-size: cover;	
+    bottom: 50px;
+    right: 50px;
+	position: absolute;
+	    opacity: 0.8;
+
+}
+.content_container{
+	overflow: hidden;
+	background-color: #ffffff;
+	width: 100%;
+}
+
+h1{
+    width: 929px;
+    margin-right: 200%;
+    position: relative;
+    height: 100%;
+    line-height: 106pt;
+    font-size: 119pt;
+    font-family: gilroyblack;
+    margin-top: 114px;
+    margin-left: 60px;
+    color: rgb(0, 0, 255);
+    text-transform: uppercase;
+    padding-top: 5px;
+    width: 5px;
+}
+h2{
+    padding-left: 60px;
+    width: 170px;
+    position: absolute;
+    font-family: DINPromedium;
+    font-size: 22pt;
+    line-height: 27pt;
+        bottom: 100px;
+
+    font-weight: 200;
+    color:blue;
+}
+ u{
+    text-decoration: none;
+    border-bottom: 0px;
+  }
+.line{
+	display: none;
+}
+.icon{
+	position: relative;
+	margin-top: 70px;
+	margin-left: 65px;
+
+}
+.icon .svg_container{
+    width: 80px;
+    height: 110px;
+    top: 20px;
+    position: relative;
+}
+svg{
+	max-height: 100px;
+	max-width: 80px;
+}
+.icon .company_name{
+margin-top: 10px;
+    font-family: gilroybold;
+    font-size: 37pt;
+    text-transform: lowercase;
+    color:blue!important;
+}

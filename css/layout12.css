@@ -1,0 +1,108 @@
+@font-face {
+    font-family: FranklinGothicBold;
+    src: url(../fonts/FranklinGothicBold.otf);
+}
+@font-face {
+    font-family: FranklinGothicRegular;
+    src: url(../fonts/FranklinGothicRegular.otf);
+}
+@font-face {
+    font-family: SentinelSemiLightItalic;
+    src: url(../fonts/SentinelSemiLightItalic.otf);
+}
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	fill:white!Important;
+}
+body {
+
+	background-color: #000000!important;
+}
+main{
+
+    margin: 0 auto;
+    width: 1080px;
+    height: 1920px;
+    position: relative;
+    overflow: hidden;
+        background-color: black!Important;
+ 
+}
+.image_container  {
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.unsplash.com/photo-1473244228373-94e7e7fd250f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2743f0d930daa0390b72ed16b28eb98f);
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+
+}
+.content_container{
+	overflow: hidden;
+	background-color: #ffffff;
+	width: 100%;
+    height:100%;
+}
+
+h1{
+    width: 670px;
+    max-height: 100%;
+    font-size: 80pt;
+    font-family: FranklinGothicBold;
+    margin-top: 1240px;
+    color: white;
+    position: relative;
+    font-weight: 200;
+    text-align: left;
+    margin-left: 70px;
+    text-transform: uppercase;
+    line-height: 0.8;
+}
+h2{
+    margin-left: 70px;
+    width: 400px;
+    font-size: 18pt;
+    margin-top: 65px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-weight: 200;
+    font-family: franklingothicregular;
+    color: white;
+    line-height: 1.1;
+}
+ u{
+    text-decoration: none;
+    border-bottom: 0px;
+  }
+.line{
+	display: none;
+}
+.icon{
+position: absolute;
+    margin-top: 1695px;
+    right: 100px;
+    fill: white!important;
+
+}
+.icon .svg_container{
+    margin-right: auto;
+    margin-left: auto;
+    height: 90px;
+    max-width: 70px;
+}
+svg{
+fill:white!important;
+
+}
+.icon .company_name{
+font-family: FranklinGothicBold;
+    font-size: 32pt;
+    color: white!important;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}

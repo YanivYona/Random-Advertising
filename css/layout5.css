@@ -1,0 +1,121 @@
+@font-face {
+    font-family: BauerBodoniStd;
+    src: url(../fonts/FPBauerBodoniStd.otf);
+}
+@font-face {
+    font-family: DINProRegular;
+    src: url(../fonts/FP-DINProRegular.otf);
+}
+@font-face {
+    font-family: GilroyBold;
+    src: url(../fonts/FP-GilroyBold.otf);
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	fill:#996f01!important;
+}
+body{
+	background-color: #000000;
+	color: #996f01!important;
+	overflow: hidden;
+}
+main{
+	background-color: #ffffff!important;
+	margin: 0 auto;
+	width: 1080px;
+	height: 1920px;
+	position: relative;
+}
+.image_container{
+top: 451px;
+    width: 105%;
+    height: 60%;
+    background-image: url(https://images.unsplash.com/photo-1473244228373-94e7e7fd250f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2743f0d930daa0390b72ed16b28eb98f);
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    border-radius: 780px;
+    left: -2%;
+    overflow: hidden;
+
+ }
+.content_container{
+	position: relative;
+	overflow: auto;
+	background-color: #ffffff;
+	width: 100%;
+	height: 100%;
+}
+
+h1{
+width: 60%;
+    position: absolute;
+    line-height: 1.6em;
+    font-size: 50pt;
+    font-family: BauerBodoniStd;
+    left: 90px;
+    top: 93px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+h2{
+    width: 25%;
+    position: absolute;
+  font-family: DINProRegular;
+    font-size: 22pt;
+    left: 90px;
+    bottom: 100px;
+    line-height: 1;
+    font-weight:200;
+}
+ u{
+    text-decoration: none;
+    border-bottom: 4px solid #996f01;
+  }
+.line{
+	display:none;
+	position: absolute;
+	left: 69px;
+	    top: 665px;
+	height: 2px;
+	width: 120px;
+	background-color: #000000;
+}
+.icon{
+	height: 120px;
+	text-align: center;
+	position: absolute;
+	    top: 665px;
+	right: 69px;
+}
+.icon .svg_container {
+width: 100px;
+    margin: 0 auto;
+    bottom: -1060px;
+    position: relative;
+        right: 20px;
+        fill:#996f01!important;
+}
+svg {
+	max-height: 100px;
+	max-width: 100px;
+	        fill:#996f01!important;
+}
+.company_name{
+
+    font-size: 32pt;
+    position: relative;
+    top: -670px;
+        left: 40px;
+
+    word-break: break-all;
+    width: 32px;
+    font-family: dinproregular;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.1;
+
+        color: #996f01!important;
+            z-index: 5;
+    }

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: plutoblack;
+    src: url(../fonts/PlutoBlack.otf);
+}
+@font-face {
+    font-family: sabonregular;
+    src: url(../fonts/SabonRegular.otf);
+}
+@font-face {
+    font-family: SentinelSemiLightItalic;
+    src: url(../fonts/SentinelSemiLightItalic.otf);
+}
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	fill:black;
+}
+body {
+
+	color: #000000;
+}
+main{
+
+    margin: 0 auto;
+    width: 1080px;
+    height: 1920px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.6)!important;
+}
+.image_container  {
+    width: 880px;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1473244228373-94e7e7fd250f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2743f0d930daa0390b72ed16b28eb98f);
+    background-size: cover;
+    position: absolute;
+    z-index: 43;
+    background-position: center;
+    left: 100px;
+    top: 470px;
+    box-shadow: 10px 20px 35px rgba(0, 0, 0, 0.30);
+
+}
+.content_container{
+	overflow: hidden;
+	background-color: #ffffff;
+	width: 100%;
+    height:100%;
+}
+
+h1{
+width: 880px;
+    max-height: 100%;
+    font-size: 20pt;
+    font-family: sabonregular;
+    margin-top: 322px;
+    margin-left: 100px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    font-weight: 200;
+    text-transform: lowercase;
+}
+h2{
+    margin-left: 100px;
+    width: 880px;
+    font-family: sabonregular;
+    font-size: 34pt;
+    line-height: 45pt;
+    margin-top: 1516px;
+    padding-bottom: 15px;
+    position: absolute;
+    text-align: center;
+    font-weight: 200;
+}
+ u{
+    text-decoration: none;
+    border-bottom: 0px;
+  }
+.line{
+	display: none;
+}
+.icon{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+.icon .svg_container{
+margin-right: auto;
+    margin-left: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+svg{
+
+
+}
+.icon .company_name{
+      font-family: plutoblack;
+    font-size: 53pt;
+    color: black!important;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,110 @@
+@font-face{
+    font-family: 'FuturaBoldItalic';
+    src: url('/Fonts/FuturaBoldItalic.ttf');
+}
+
+@font-face{
+    font-family: 'RationalLight';
+    src: url('/Fonts/RationalLight.otf');
+}
+
+@font-face{
+    font-family: 'RationalBold';
+    src: url('/Fonts/RationalBold.otf');
+}
+
+
+body{
+    background-color: #ffffff;
+}
+
+
+
+
+.imgDiv{
+    position: relative;
+    background-color: black;
+    padding-top: 210px;
+    margin-top: 17.5px;
+    width: 500px;
+    height: 600px;
+
+}
+.image{
+    position: relative;
+    text-align: center;
+    width: 500px;
+    height: 66.6%;
+}
+
+
+
+.slogan{
+    position: static;
+    width: 500px;
+    margin-top: 70px;
+    font-family: RationalLight;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    word-spacing: 17px;
+    letter-spacing: 2.2px;
+    word-wrap: break-word;
+    -webkit-transform:scale(2,1);
+    word-wrap: inherit;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+
+
+
+.logoDiv{
+    visibility: hidden;
+    display: none;
+}
+.logo{
+    visibility: hidden;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.word{ 
+    position: relative;
+    font-family: RationalBold;
+    width: 500px;
+    bottom: 96px;
+    margin-top: 5px;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -7.1px;
+    -webkit-transform:scale(2,1);
+    word-wrap: normal;
+    height: 69px;
+
+}
+
+
+
+
+
+
+
+.content{
+    visibility: hidden;
+    display: none;
+}
+
